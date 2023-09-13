@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.calculatorInputs {
+    background-color: rgb(150, 150, 150);
+    border: 4px solid black;
+    border-radius: 20px;
+    height: 420px;
+    width: 340px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+
+.outputContainer {
+    background-color: gray;
+    border: 0.5px solid black;
+    height: 50px;
+    width:  260px;
+    color: white;
+    margin: 0 auto;
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.calculatorHead {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.output {
+    font-size: 25px;
+}
+
+.topBtns {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.clearBtn, .deleteBtn {
+    background-color: rgb(197, 0, 0);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    /* font-family: 'Philosopher', sans-serif; */;
+    font-family: 'Roboto Mono', monospace;
+    padding: 15px;
+    table-layout: fixed;
+    width: 50%;
+    margin: 5px;
+}
+
+
+
+.numpadContainer {
+    text-align: center;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.numpadContainer button {
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+}
+
+.zeroBtn,
+.equalButton {
+    width: 100px;
+}

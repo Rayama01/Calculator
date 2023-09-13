@@ -1,6 +1,6 @@
-let firstNum = parseInt(prompt("enter first number: "))
-let operator = prompt("enter operator: ")
-let secondNum = parseInt(prompt("enter second number: "))
+// let firstNum = parseInt(prompt("enter first number: "))
+// let operator = prompt("enter operator: ")
+// let secondNum = parseInt(prompt("enter second number: "))
 
 let add = function(firstNum, secondNum) {
     let sum = firstNum + secondNum
