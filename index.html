@@ -4,42 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Calculator</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="calculatorContainer">
-        <div class="inputContainer">
-            <section class="calculatorInputs">
-                <div class="outputContainer">
-                    <div class="currentCalc"><span></span></div>
-                    <div class="output">0</div>
-                </div>
-                <div class="topBtns">
-                    <button class="clearBtn">clear</button>
-                    <button class="deleteBtn">delete</button>
-                </div>
-                <div class="numpadContainer">
-                    <button id="7">7</button>
-                    <button id="8">8</button>
-                    <button id="9">9</button>
-                    <button class="divisionBtn">÷</button>
-                    <br>
-                    <button id="4">4</button>
-                    <button id="5">5</button>
-                    <button id="6">6</button>
-                    <button class="timesBtn">x</button>
-                    <br>
-                    <button id="1">1</button>
-                    <button id="2">2</button>
-                    <button id="3">3</button>
-                    <button class="subtractBtn">-</button>
-                    <br>
-                    <button class="decimalBtn">.</button>
-                    <button class="zeroBtn" id="0">0</button>
-                    <button class="equalButton">=</button>
-                    <button id="addition">+</button>
-                </div>
-            </section>
+    <div class="container">
+        <div class="calcContainer">
+           
+            <div class="screenContainer">
+                <div class="screenOutput">0</div>
+            </div>
+            
+            <div class="topButtons">
+                <button class="clearBtn">clear</button>
+                <button class="deleteBtn">delete</button>
+            </div>
+
+            <div class="mainButtons">
+                <button id="button7" data-attt="7">7</button>
+                <button class="button" data-attt=8>8</button>
+                <button class="button" data-attt=9>9</button>
+                <button class="divideBtn">÷</button>
+                
+                <button class="button" data-attt=4>4</button>
+                <button class="button" data-attt=5>5</button>
+                <button class="button" data-attt=6>6</button>
+                <button class="timesBtn">x</button>
+
+                <button class="button" data-attt=1>1</button>
+                <button class="button" data-attt=2>2</button>
+                <button class="button" data-attt=3>3</button>
+                <button class="minusBtn">-</button>
+
+                <button class="decimal">.</button>
+                <button class="button" data-attt=0>0</button>
+                <button class="equalBtn">=</button>
+                <button class="addBtn">+</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
