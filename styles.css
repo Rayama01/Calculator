@@ -1,0 +1,70 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+.calcContainer {
+    background-color: #ebe8e2;
+    height: 420;
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.screenContainer {
+    background-color: #c7c6c1;
+    height: 80px;
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: right;
+    border: 2.5px solid black;
+    border-radius: 5px;
+}
+
+.screenOutput {
+    margin-top: 10%;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.clearBtn, .deleteBtn {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.mainButtons {
+    text-align: center;
+}
+
+.mainButtons button {
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
